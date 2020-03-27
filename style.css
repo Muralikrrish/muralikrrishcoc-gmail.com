@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(wallpeper.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 250%;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 175%;
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: 400;
+  font-size: 75%;
+  text-decoration: none;
+  border-radius: 200px;
+  color: white;
+  background-color: #00731f;
+  transition: background-color 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #004d15;
+}
